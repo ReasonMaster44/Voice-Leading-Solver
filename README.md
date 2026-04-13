@@ -56,8 +56,10 @@ c = ce.Chorale(progression)
 cu.start(c)
 ```
 
-```ChoraleEngine.Progression``` takes a ```list``` of ```ChoraleEngine.Chord```.
+```ChoraleEngine.Progression``` takes a ```list``` of ```ChoraleEngine.Chord```s.
 
-The first parameter of ```ChoraleEnginer.Chord``` is the root of the chord. The second parameter is the quality of the chord (e.g. major). The third, optional parameter is the quality of the seventh degree of the chord (e.g. diminished).
+The first parameter of ```ChoraleEngine.Chord``` is the root of the chord. The second parameter is the quality of the chord (e.g. major). The third, optional parameter is the quality of the seventh degree of the chord (e.g. diminished).
 
-```ChoraleUI.start``` runs a visualisation of the voice leading using standard western notation. Each stave is in treble clef. The first parameter of this function takes a ```ChoraleEngine.Chorale``` object which can be instantiated by passing a ```ChoraleEngine.Progression``` as an argument.
+```ChoraleEngine.Chorale``` takes a ```ChoraleEngine.Progression``` as an argument and computes the optimal voice leading.
+
+```ChoraleUI.start``` takes a ```ChoraleEngine.Chorale``` object and runs a visualisation using standard western notation. Each stave is in treble clef.
