@@ -56,7 +56,7 @@ c = ce.Chorale(progression)
 cu.start(c)
 ```
 
-```ChoraleEngine.Progression``` takes a ```list``` of ```ChoraleEngine.Chord```s.
+```ChoraleEngine.Progression``` takes a ```list``` of ```ChoraleEngine.Chord```.
 
 The first parameter of ```ChoraleEnginer.Chord``` is the root of the chord. The second parameter is the quality of the chord (e.g. major). The third, optional parameter is the quality of the seventh degree of the chord (e.g. diminished).
 
