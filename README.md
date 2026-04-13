@@ -20,14 +20,14 @@ For each chord in the input progression, many voicing (an ordered set of pitches
 Here are two voicing examples of a Cmaj7 chord:
 
 ### A: 
-* Sop - B
+* Sop - C
 * Alt - G
 * Ten - E
 * Bass - C
 
 ### B: 
 * Sop - E
-* Alt - B
+* Alt - C
 * Ten - G
 * Bass - C
 
@@ -55,3 +55,9 @@ progression = ce.Progression([ce.Chord("C", "maj"),
 c = ce.Chorale(progression)
 cu.start(c)
 ```
+
+```ChoraleEngine.Progression``` takes a ```list``` of ```ChoraleEngine.Chord```s.
+
+The first parameter of ```ChoraleEnginer.Chord``` is the root of the chord. The second parameter is the quality of the chord (e.g. major). The third, optional parameter is the quality of the seventh degree of the chord (e.g. diminished).
+
+```ChoraleUI.start``` runs a visualisation of the voice leading using standard western notation. Each stave is in treble clef. The first parameter of this function takes a ```ChoraleEngine.Chorale``` object which can be instantiated by passing a ```ChoraleEngine.Progression``` as an argument.
