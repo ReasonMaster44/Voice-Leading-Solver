@@ -7,9 +7,9 @@ When arranging a chord progression for four voices, there are many possible ways
 
 ## The Solution
 
-Given any melodic line, a smoothness score can be derived by adding up all the interval jumps between notes. A semitone interval has the smallest smoothness value of 1
+Given any melodic line, a roughness score can be derived by adding up all the interval jumps between notes. A semitone interval has the smallest roughness value of 1.
 
-Here are some examples of melodies with their corresponding smoothness score:
+Here are some examples of melodies with their corresponding roughness score:
 
 * A, A# - 1
 * C, D, C, C - 4
@@ -31,4 +31,4 @@ Here are two voicing examples of a Cmaj7 chord:
 * Ten - G
 * Bass - C
 
-This tool finds the most optimal set of voicings given a progression where smoothness is maximised throughout.
+This tool finds the optimal set of voicings given a progression where roughness is minimised throughout.
