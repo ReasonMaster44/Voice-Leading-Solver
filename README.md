@@ -20,14 +20,14 @@ For each chord in the input progression, many voicing (an ordered set of pitches
 Here are two voicing examples of a Cmaj7 chord:
 
 ### A: 
-* Sop - C
+* Sop - B
 * Alt - G
 * Ten - E
 * Bass - C
 
 ### B: 
 * Sop - E
-* Alt - C
+* Alt - B
 * Ten - G
 * Bass - C
 
