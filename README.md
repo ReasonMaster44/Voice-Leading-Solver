@@ -1,8 +1,6 @@
 
 # Voice Leading Solver
 
-This Python tool generates four melodic lines that outline the input chord progression when heard together. Each resulting line minimises melodic movement to produce smooth voice leading.
-
 ## The Problem
 
 When arranging a chord progression for four voices, there are many possible ways to voice each chord. Naively choosing voicings independently for each chord produces awkward leaps and unnecessary melodic movement. Smooth voice leading minimises the distance each voice travels between chords, creating singable lines.
